@@ -1,2 +1,2 @@
 # NCEH-National-Provider
-Strategic analysis of healthcare network optimization and site-of-care migration. This project leverages a 2.6M+ record Data Mart to identify referral leakage, evaluate physician alignment, and provide data-driven recommendations for NCEH 2026 market growth.
+North Capital Equity Health (NCEH) is a strategic healthcare organization focused on facility optimization and market share growth within the private equity and healthcare delivery sectors. The organization operates a network of surgical and outpatient facilities, prioritizing data-driven decision-making to optimize site-of-care migration and maintain high network integrity across the United States.
