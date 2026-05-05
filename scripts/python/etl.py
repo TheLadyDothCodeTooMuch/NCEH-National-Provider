@@ -137,10 +137,8 @@ def main():
                 # forgot to add schema="bronze". If you already have a schema, don't forget to add this parameter with the schema name. Otherwise, the table will be automatically saved in a schema known as 'dbo' 
                 chunk.to_sql(table_name, engine, schema="bronze", if_exists="append", index=False)
 
-            print(f"Successfully saved data into {output_file}\n
-            ...")
-            print(f"Successfully loaded data into {table_name}\n
-            ...")
+            print(f"Successfully saved data into {output_file}\n...")
+            print(f"Successfully loaded data into {table_name}\n...")
     except FileNotFoundError as fnfe:
         print(f"Check file name or path again: {fnfe}")
     except Exception as e:
