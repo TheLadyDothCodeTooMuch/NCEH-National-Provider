@@ -109,7 +109,7 @@ FILE_NAMES = {
 }
 
 
-PATH = r"C:\Users\chika\OneDrive\Desktop\Project\Healthcare\datasets\\"
+PATH = r"\Project\Healthcare\datasets\\"
 
 
 def main():
@@ -147,7 +147,7 @@ def main():
        
 def get_engine() -> Engine:
     connection_url = (
-        "mssql+pyodbc://Chika\\SQLEXPRESS/NCEH_Clinical_Operations_2026?"
+        "mssql+pyodbc://SQLEXPRESS/NCEH_Clinical_Operations_2026?"
         "driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
     )
     return create_engine(connection_url, fast_executemany=True)
