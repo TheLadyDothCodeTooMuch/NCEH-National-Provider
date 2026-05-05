@@ -128,12 +128,6 @@ CREATE TABLE bronze.cms_ownership_payments (
 );
 
 
-SELECT * FROM INFORMATION_SCHEMA.COLUMNS 
-
-
-DROP TABLE IF EXISTS bronze.cms_ownership_payments;
-GO
-
 CREATE TABLE bronze.cms_ownership_payments (
     Physician_NPI NVARCHAR(30),
     Recipient_City NVARCHAR(100), -- Increased from 50
@@ -174,5 +168,4 @@ CREATE TABLE bronze.cms_facility_info (
     CITY NVARCHAR(100),
     [STATE] NVARCHAR(10),
     [SUBGROUP - ACUTE CARE] NVARCHAR(10)
-)
-
+);
