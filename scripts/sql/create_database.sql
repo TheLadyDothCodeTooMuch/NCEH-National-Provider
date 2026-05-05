@@ -1,0 +1,3 @@
+CREATE DATABASE NCEH_Clinical_Operations_2026;
+
+USE NCEH_Clinical_Operations_2026
